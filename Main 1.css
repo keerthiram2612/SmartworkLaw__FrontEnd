@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     transition: all 0.4s ease;
+    text-align: center;
 }
 
 .logo-img{
@@ -103,8 +104,17 @@ nav .nav-bar .logo a{
 .nav-links li:hover a::before{
     opacity: 1;
 }
-
-
+#section-a{
+  width: 100%;
+  height: 450px;
+  margin-top: 40px;
+ 
+}
+.section{
+  width: 100%;
+  height: 100%;
+  
+}
 @media (max-width: 790px) {
     nav .nav-bar .sidebarOpen{
         display: block;
@@ -178,8 +188,9 @@ nav .nav-bar .logo a{
     animation-name:fade;
     animation-duration:1s;
     display:none;
+    text-align: center;
   }
-  
+ 
   img{
     width:100%;
     height: 100%;
@@ -194,6 +205,9 @@ nav .nav-bar .logo a{
     #slider{
       width:100%;
   
+    }
+    .aboutheading{
+      font-size: 20px;
     }
   }
   
@@ -664,3 +678,72 @@ nav .nav-bar .logo a{
 	text-align:center;
 	left: 21vw;
 	}
+  @media(max-width:640px){
+    #slider{
+      text-align: center;
+      height: 40vh;
+    }
+    .abt-img{
+      width: 50%;
+    }
+    #section-a{
+      width: 100%;
+      height: 50vh;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .slides h1{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translate(-10%);
+      font-size: 25px;
+    }
+    .heading-3{
+     margin-left: -40px;
+    }
+    .card{
+      margin-top: 40px;
+      height: auto;
+      width: auto;
+    }
+    .btn-holder{
+      margin-top: 120px;
+      transform: translateX(-80px);
+
+    }
+    .section{
+      position: absolute;
+      width: 500px;
+      margin-top: 30px;
+      font-size: 25px;
+      height: 300px;
+      
+      
+    }
+    .section .aboutheading{
+      margin-top: -260px;
+      margin-left: -20px;
+    }
+    .section .para-1{
+      margin-top: -250px;
+      text-align: center;
+      font-size: 20px;
+      margin-left: -36px;
+    }
+    .section .para-2{
+      margin-top: -230px;
+      margin-left: -100px;
+      font-size: 13px;
+    }
+    .abt-img{
+      display: none;
+    }
+    .btn-holder span{
+      padding: 10px 10px;
+      margin-top: -10px;
+    }
+    
+  }
