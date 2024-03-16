@@ -1,0 +1,469 @@
+.card {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 105vw;
+  left: 16%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .content {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+.back-par{
+  position: absolute;
+  top: 60px;
+  font-size: 20px;
+}
+
+.front-head{
+  position: absolute;
+  top: 310px;
+  left: 60px;
+  font-size: 30px;
+  color: #03446A;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-1 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 105vw;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-1:hover .content-1 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-1,
+.back-1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-1 {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+.back-par-1{
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+}
+
+.card-2 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 105vw;
+  left: 85%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-2:hover .content-2 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-2,
+.back-2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-2 {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+.card-3 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 130vw;
+  left: 16%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-3:hover .content-3 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-3,
+.back-3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-3 {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+.back-par-3{
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+}
+
+.card-4 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 130vw;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-4:hover .content-4 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-4,
+.back-4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-4 {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+.back-par-3{
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+}
+
+.card-5 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 130vw;
+  left: 85%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-5:hover .content-5 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-5,
+.back-5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-5 {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+.back-par-3{
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+}
+
+.card-6 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 158vw;
+  left: 16%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-6:hover .content-6 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-6,
+.back-6 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-6 {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+.back-par-3{
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+}
+
+.card-7 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 158vw;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-7:hover .content-7 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-7,
+.back-7 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-7 {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+.back-par-3{
+  position: absolute;
+  top: 20px;
+  font-size: 20px;
+}
+
+.card-8 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 158vw;
+  left: 86%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+}
+
+.content-8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card-8:hover .content-8 {
+  transform: rotateY( 180deg ) ;
+  transition: transform 0.5s;
+}
+
+.front-8,
+.back-8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 50px;
+  color: #03446A;
+  text-align: center;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.back-8 {
+  background: #03446A;
+  color: white;
+  transform: rotateY( 180deg );
+}
+
+.back-par-8{
+  position: absolute;
+  top: 5px;
+  font-size: 20px;
+}
