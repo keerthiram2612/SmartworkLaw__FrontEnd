@@ -748,10 +748,96 @@ nav .nav-bar .logo a{
       padding: 10px 10px;
       margin-top: -10px;
     }
+  
+    
     .container{
-      display: none;
+      width: 400px;
+      height: 160vh;
+    }
+    #member-1{
+      width: 200px;
+      height: 150px;
+      margin-top: -150px;
+      transform: translateY(800%);
+      margin-left: -70px;
+    }
+    .people-head{
+      margin-top: 1010px;
+      z-index: 1;
+      text-transform: uppercase;
+      transform: translateX(50%);
+    }
+    #member-2{
+      width: 200px;
+      height: 150px;
+      margin-top: -150px;
+      transform: translateY(800%);
+      margin-left: -190px;
+    }
+    #member-3{
+      width: 200px;
+      height: 150px;
+      margin-top: -150px;
+      transform: translateY(1050%);
+      margin-left: -770px;
+    }
+    #member-4{
+      width: 200px;
+      height: 150px;
+      margin-top: -150px;
+      transform: translateY(1050%);
+      margin-left: -890px;
+    }
+    #member-5{
+      width: 200px;
+      height: 150px;
+      margin-top: -130px;
+      transform: translateY(1200%);
+      margin-right: -550px;
+      margin-left: -70px;
+    }
+    #member-6{
+      width: 200px;
+      height: 150px;
+      margin-top: -130px;
+      transform: translateY(1200%);
+      margin-right: -550px;
+      margin-left: -190px;
+    }
+    #member-7{
+      width: 200px;
+      height: 150px;
+      margin-top: -130px;
+      transform: translateY(1460%);
+      margin-right: -550px;
+      margin-left: -660px;
     }
     #section-contact{
-      display: none;
+      width: 500px;
+      height: 250px;
+      transform: translateY(890%);
+      margin-left: -150px;
     }
+    #section-contact input{
+       width: 250px;
+       height: 50px;
+    }
+    #section-contact textarea {
+      width: 350px;
+      height: 100px;
+    }
+    .Footer{
+      text-align: center;
+      height: 200px;
+      justify-content: center;
+
+    }
+    .footer-h4{
+      margin-left: -0px;
+    }
+    .footer-head4{
+      margin-top: 50px;
+      margin-left: -30px;
+    }
+    
   }
